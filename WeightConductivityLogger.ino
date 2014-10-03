@@ -5,6 +5,16 @@
 
 // A simple data logger for the Arduino analog pins
 
+/*
+5-pin header on logger board:
+Pin  Function
+1    Ground
+2    5 VDC Stimulus Reference
+3    V- in from strain gauge
+4    V+ in from strain gauge
+5    Conductivity probe referenced to 3.3 VDC
+*/
+
 // how many milliseconds between grabbing data and logging it. 1000 ms is once a second
 #define LOG_INTERVAL  1000 // mills between entries (reduce to take more/faster data)
 
